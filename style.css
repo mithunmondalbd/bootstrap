@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-image {
+    width: 100%;
+    height: 430px;
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.navbar-nav li {
+    padding-right: 15px;
+}
+.header-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: rem;
+    color: white;
+    text-align: justify;
+}
+.card1 {
+    border: 1px solid rgb(0, 138, 35);
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    color: red;
+    margin-right: 10px;
+    
+}
+
+.card2 {
+    background: rgb(5, 218, 5);
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 50%;
+}
+.top-border {
+    position: relative;
+    bottom: 15px;
+    z-index: -1;
+}
+.image-fluid {
+    background-image: url(img/call-to-action-bg.jpg);
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+.fns-icon {
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    color: grey;
+}
+.fns-icon:hover {
+    background-color: rgb(158, 238, 178);
+}
+.map-sider {
+    width: 100%;
+    height: 300px;
+}
+
+/* Extra small devices (phones, 600px and down)  */
+ @media only screen and (max-width: 600px) {
+    .bg-image {
+        height: 300px;
+    }
+    .protfolio-card {
+        width: 100%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bg-image {
+        height: auto;
+    }
+    .md-button-icon {
+        position: relative;
+        bottom: 60px;
+    }
+    .protfolio-card {
+        width: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .navbar-brand img {
+        margin-left: 70px;
+    }
+    .header-body {
+        padding-top: 9rem;
+        a
+    }
+.header-btn {
+    font-size: 60px;
+}
+
+.head-btn {
+    font-size: 30px;
+}
+.md-button-icon {
+    position: relative;
+    top: 10px;
+}
+
+
+}
+
